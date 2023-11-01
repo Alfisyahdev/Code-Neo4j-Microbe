@@ -1,0 +1,3741 @@
+Disease
+
+create
+ (:Disease {name: "Atopic dermatitis"}),
+ (:Disease {name: "Allergic asthma"}),
+ (:Disease {name: "Bacterial Vaginosis"}),
+ (:Disease {name: "Clostridium difficile infection(CDI)"}),
+ (:Disease {name: "COPD"}),
+ (:Disease {name: "Crohn's disease(CD)"}),
+ (:Disease {name: "Cystic fibrosis"}),
+ (:Disease {name: "Ileal Crohn's disease(CD)"}),
+ (:Disease {name: "Liver cirrhosis"}),
+ (:Disease {name: "New-onset untreated rheumatoid arthrits"}),
+ (:Disease {name: "Periodontal"}),
+ (:Disease {name: "Psoriasis"}),
+ (:Disease {name: "Type 1 diabetes"}),
+ (:Disease {name: "Skin and mucosal infections"}),
+ (:Disease {name: "Asthma"}),
+ (:Disease {name: "Obesity"}),
+ (:Disease {name: "Irritable bowel syndrome(IBS)"}),
+ (:Disease {name: "Allergy"}),
+ (:Disease {name: "Gastric and duodenal ulcer"}),
+ (:Disease {name: "Gastro-oesophageal reflux"}),
+ (:Disease {name: "Allergic sensitization"}),
+ (:Disease {name: "Atopic sensitisation"}),
+ (:Disease {name: "Atopy"}),
+ (:Disease {name: "Colon cancer"}),
+ (:Disease {name: "Constipation Irritable bowel syndrome(IBS)"}),
+ (:Disease {name: "Diarrhea Irritable bowel syndrome(IBS)"}),
+ (:Disease {name: "Eczema"}),
+ (:Disease {name: "Infectious colitis"}),
+ (:Disease {name: "Inflammatory bowel disease(IBD)"}),
+ (:Disease {name: "Necrotizing Enterocolitis"}),
+ (:Disease {name: "Recurrent wheeze"}),
+ (:Disease {name: "Rheumatoid arthrits"}),
+ (:Disease {name: "Systemic inflammatory response syndrome"}),
+ (:Disease {name: "Type 2 diabetes"}),
+ (:Disease {name: "Ulcerative colitis"}),
+ (:Disease {name: "Colorectal carcinoma"}),
+ (:Disease {name: "Kidney stones"}),
+ (:Disease {name: "Whipple's disease"}),
+ (:Disease {name: "Guttate psoriasis"})
+
+
+Microbe
+
+create
+(:Microbe {name: "Actinomyces"}),
+(:Microbe {name: "Alistipes"}),
+(:Microbe {name: "Acinetobacter"}),
+(:Microbe {name: "Alistipes finegoldii"}),
+(:Microbe {name: "Alistipes putredinis"}),
+(:Microbe {name: "Burkholderia"}),
+(:Microbe {name: "Bacteroidaceae"}),
+(:Microbe {name: "Bacteroidetes"}),
+(:Microbe {name: "Bacteroidales"}),
+(:Microbe {name: "Bacteroides"}),
+(:Microbe {name: "Bacteroides eggerthii"}),
+(:Microbe {name: "Bacteroides finegoldii"}),
+(:Microbe {name: "Bacteroides sp. D20"}),
+(:Microbe {name: "Bacteroides uniformis"}),
+(:Microbe {name: "Bilophila"}),
+(:Microbe {name: "Bilophila wadsworthia"}),
+(:Microbe {name: "Clostridiales"}),
+(:Microbe {name: "Clostridium"}),
+(:Microbe {name: "Coprococcus"}),
+(:Microbe {name: "Corynebacterium"}),
+(:Microbe {name: "Dorea"}),
+(:Microbe {name: "Eggerthella"}),
+(:Microbe {name: "Erysipelothrix"}),
+(:Microbe {name: "Erysipelotrichales"}),
+(:Microbe {name: "Escherichia"}),
+(:Microbe {name: "Eubacterium"}),
+(:Microbe {name: "Eubacterium eligens"}),
+(:Microbe {name: "Eubacterium hallii"}),
+(:Microbe {name: "Eubacterium rectale"}),
+(:Microbe {name: "Eubacterium tortuosum"}),
+(:Microbe {name: "Faecalibacterium"}),
+(:Microbe {name: "Faecalibacterium prausnitzii"}),
+(:Microbe {name: "Firmicutes"}),
+(:Microbe {name: "Firmicutes bacterium EG14"}),
+(:Microbe {name: "Firmicutes str. C29"}),
+(:Microbe {name: "Fusobacteria"}),
+(:Microbe {name: "Fusobacteriaceae"}),
+(:Microbe {name: "Fusobacterium"}),
+(:Microbe {name: "Gram-negative bacterium cL10-2b-4"}),
+(:Microbe {name: "Haemophilus"}),
+(:Microbe {name: "Haemophilus parainfluenzae"}),
+(:Microbe {name: "Hafnia"}),
+(:Microbe {name: "Helicobacter pylori"}),
+(:Microbe {name: "Holdemania"}),
+(:Microbe {name: "Human intestinal firmicute CB47"}),
+(:Microbe {name: "Human intestinal firmicute CO13"}),
+(:Microbe {name: "Human intestinal firmicute CO19"}),
+(:Microbe {name: "Human intestinal firmicute CO2"}),
+(:Microbe {name: "Human intestinal firmicute CO35"}),
+(:Microbe {name: "Human intestinal firmicute CO4"}),
+(:Microbe {name: "Human intestinal firmicute CS26"}),
+(:Microbe {name: "Klebsiella"}),
+(:Microbe {name: "Lachnobacterium"}),
+(:Microbe {name: "Lachnospiraceae"}),
+(:Microbe {name: "Lachnospiraceae bacterium A2"}),
+(:Microbe {name: "Lactobacillus"}),
+(:Microbe {name: "Lactobacillus salivarius"}),
+(:Microbe {name: "Lactococcus"}),
+(:Microbe {name: "Leptotrichia amnionii"}),
+(:Microbe {name: "Mannheimia"}),
+(:Microbe {name: "Mastodon intestinal bacterium AN-22-6"}),
+(:Microbe{name:"Megasphaera"}),
+(:Microbe{name:"Mogibacterium"}),
+(:Microbe{name:"Odoribacter"}),
+(:Microbe{name:"Odoribacter splanchnicus"}),
+(:Microbe{name:"Oligella"}),
+(:Microbe{name:"Oscillibacter"}),
+(:Microbe{name:"Oscillospira"}),
+(:Microbe{name:"Oscillospiraceae bacterium NML 061048"}),
+(:Microbe{name:"Pantoea"}),
+(:Microbe{name:"Parabacteroides"}),
+(:Microbe{name:"Parabacteroides distasonis"}),
+(:Microbe{name:"Parabacteroides merdae"}),
+(:Microbe{name:"Pasteurella"}),
+(:Microbe{name:"Pectobacterium"}),
+(:Microbe{name:"Peptostreptococcus"}),
+(:Microbe{name:"Phascolarctobacterium"}),
+(:Microbe{name:"Porphyromonadaceae"}),
+(:Microbe{name:"Porphyromonas"}),
+(:Microbe{name:"Prevotella"}),
+(:Microbe{name:"Prevotella copri"}),
+(:Microbe{name:"Propionibacterium"}),
+(:Microbe{name:"Proteobacteria"}),
+(:Microbe{name:"Pusillimonas"}),
+(:Microbe{name:"Rikenellaceae"}),
+(:Microbe{name:"Roseburia"}),
+(:Microbe{name:"Roseburia hominis"}),
+(:Microbe{name:"Roseburia intestinalis"}),
+(:Microbe{name:"Rumen bacterium 8/94-32"}),
+(:Microbe{name:"Rumen bacterium R-7"}),
+(:Microbe{name:"Rumen bacterium R-9"}),
+(:Microbe{name:"Ruminococcaceae"}),
+(:Microbe{name:"Ruminococcus"}),
+(:Microbe{name:"Ruminococcus gnavus"}),
+(:Microbe{name:"Salmonella"}),
+(:Microbe{name:"Segmented filamentous bacterium"}),
+(:Microbe{name:"Selenomonas"}),
+(:Microbe{name:"Serratia"}),
+(:Microbe{name:"Shigella"}),
+(:Microbe{name:"Shuttleworthia"}),
+(:Microbe{name:"Solobacterium"}),
+(:Microbe{name:"Staphylococcus"}),
+(:Microbe{name:"Staphylococcus aureus"}),
+(:Microbe{name:"Staphylococcus epidermidis"}),
+(:Microbe{name:"Streptococcus"}),
+(:Microbe{name:"Streptococcus anginosus"}),
+(:Microbe{name:"Streptococcus parasanguinis"}),
+(:Microbe{name:"Streptococcus salivarius"}),
+(:Microbe{name:"Streptococcus vestibularis"}),
+(:Microbe{name:"Subdoligranulum"}),
+(:Microbe{name:"Sutterella"}),
+(:Microbe{name:"Swine fecal bacterium FPC67"}),
+(:Microbe{name:"Swine fecal bacterium FPC70"}),
+(:Microbe{name:"Swine fecal bacterium RF3E-Xyl1"}),
+(:Microbe{name:"Swine fecal bacterium SD-Pec1"}),
+(:Microbe{name:"Swine manure pit bacterium PPC108"}),
+(:Microbe{name:"Tannerella"}),
+(:Microbe{name:"Tenericutes"}),
+(:Microbe{name:"Terrahaemophilus"}),
+(:Microbe{name:"Treponema"}),
+(:Microbe{name:"Unidentified bacterium ZF3"}),
+(:Microbe{name:"Veillonella"}),
+(:Microbe{name:"Veillonella atypica"}),
+(:Microbe{name:"Veillonella dispar"}),
+(:Microbe{name:"Veillonella parvula"}),
+(:Microbe{name:"Veillonellaceae"}),
+(:Microbe{name:"Verrucomicrobia"}),
+(:Microbe{name:"Verrucomicrobia bacterium MS-F-88"}),
+(:Microbe{name:"Verrucomicrobiaceae"}),
+(:Microbe{name:"Vibrio"}),
+(:Microbe{name:"Yersinia"}),
+(:Microbe{name: "Comamonadaceae"}),
+(:Microbe{name: "Oxalobacteraceae"}),
+(:Microbe{name: "Sphingomonadaceae"}),
+(:Microbe{name: "Coxiellaceae"}),
+(:Microbe{name: "Lysobacter"}),
+(:Microbe{name: "Rickettsiales"}),
+(:Microbe{name: "Stenotrophomonas maltophilia"}),
+(:Microbe{name: "Streptococcus mitis"}),
+(:Microbe{name: "Bifidobacterium catenulatum"}),
+(:Microbe{name: "Clostridium difficile"}),
+(:Microbe{name: "Clostridia"}),
+(:Microbe{name: "Collinsella aerofaciens"}),
+(:Microbe{name: "Clostridium leptum"}),
+(:Microbe{name: "Bacteroides ovatus"}),
+(:Microbe{name: "Bacteroides vulgatus"}),
+(:Microbe{name: "Enterobacteriaceae"}),
+(:Microbe{name: "Enterococcus faecium"}),
+(:Microbe{name: "Escherichia coli"}),
+(:Microbe{name: "Bifidobacterium"}),
+(:Microbe{name: "Desulfovibrio"}),
+(:Microbe{name: "Bacteroides fragilis"}),
+(:Microbe{name: "Clostridium coccoides"}),
+(:Microbe{name: "Actinobacteria"}),
+(:Microbe{name: "Ruminococcus productus"}),
+(:Microbe{name: "Clostridium cocleatum"}),
+(:Microbe{name: "Enterobacter aerogenes"}),
+(:Microbe{name: "Enterobacter hormaechei"}),
+(:Microbe{name: "Enterococcus"}),
+(:Microbe{name: "Gammaproteobacteria"}),
+(:Microbe{name: "Klebsiella pneumoniae"}),
+(:Microbe{name: "Shigella dysenteriae"}),
+(:Microbe{name: "Citrobacter"}),
+(:Microbe{name: "Alcaligenaceae"}),
+(:Microbe{name: "Coriobacteriaceae"}),
+(:Microbe{name: "Erysipelotrichaceae"}),
+(:Microbe{name: "Methanobrevibacter smithii"}),
+(:Microbe{name: "Prevotellaceae"}),
+(:Microbe{name: "Bacteroides sp, CJ78"}),
+(:Microbe{name: "Bacteroides thetaiotaomicron"}),
+(:Microbe{name: "Eubacteriaceae"}),
+(:Microbe{name: "Bacilli"}),
+(:Microbe{name: "Betaproteobacteria"}),
+(:Microbe{name: "Oxalobacter formigenes"}),
+(:Microbe{name: "Tropheryma whipplei"}),
+(:Microbe{name: "Enterococcus faecalis"}),
+(:Microbe{name: "Lachnospira"}),
+(:Microbe{name: "Pasteurellaceae"}),
+(:Microbe{name: "Streptococcaceae"}),
+(:Microbe{name: "Acidobacteriaceae"}),
+(:Microbe{name: "Aeromonadaceae"}),
+(:Microbe{name: "Alteromonadaceae"}),
+(:Microbe{name: "Anaerovorax"}),
+(:Microbe{name: "Bacillaceae"}),
+(:Microbe{name: "Cellulomonadaceae"}),
+(:Microbe{name: "Clostridiaceae"}),
+(:Microbe{name: "Desulfobacteraceae"}),
+(:Microbe{name: "Desulfovibrionaceae"}),
+(:Microbe{name: "Nitrospiraceae"}),
+(:Microbe{name: "Paenibacillaceae"}),
+(:Microbe{name: "Peptostreptococcaceae"}),
+(:Microbe{name: "Polyangiaceae"}),
+(:Microbe{name: "Promicromonosporaceae"}),
+(:Microbe{name: "Syntrophobacteraceae"}),
+(:Microbe{name: "Thiotrichaceae"}),
+(:Microbe{name: "Fusobacterium nucleatum"}),
+(:Microbe{name: "Acetonema"}),
+(:Microbe{name: "Actinobacillus"}),
+(:Microbe{name: "Aggregatibacter"}),
+(:Microbe{name: "Akkermansia"}),
+(:Microbe{name: "Anaerofilum"}),
+(:Microbe{name: "Anaerostipes"}),
+(:Microbe{name: "Anaerotruncus"}),
+(:Microbe{name: "Bacillus"}),
+(:Microbe{name: "Bacterium 08,96,4"}),
+(:Microbe{name: "Bacterium ASF500"}),
+(:Microbe{name: "Bacterium B4C2-5"}),
+(:Microbe{name: "Bacterium Ba2"}),
+(:Microbe{name: "Bacterium C15"}),
+(:Microbe{name: "Bacterium G100VIII"}),
+(:Microbe{name: "Bacterium ic1214"}),
+(:Microbe{name: "Bacterium ic1258"}),
+(:Microbe{name: "Bacterium ic1292"}),
+(:Microbe{name: "Bacterium ic1296"}),
+(:Microbe{name: "BBacterium ic1311"}),
+(:Microbe{name: "Bacterium ic1379"}),
+(:Microbe{name: "Bacterium ic1391"}),
+(:Microbe{name: "Bacterium MB7-1"}),
+(:Microbe{name: "Bacterium mpn-isolate group 19"}),
+(:Microbe{name: "Bacterium mpn-isolate group 22"}),
+(:Microbe{name: "Bacterium mpn-isolate group 24"}),
+(:Microbe{name: "Bacterium mpn-isolate group 27"}),
+(:Microbe{name: "Bacterium mpn-isolate group 5"}),
+(:Microbe{name: "Bacterium 'New Zealand B'"}),
+(:Microbe{name: "Bacterium str, 31285"}),
+(:Microbe{name: "Bacterium YE62"}),
+(:Microbe{name: "Bacterium YE64"}),
+(:Microbe{name: "Bacteroidaceae bacterium Smarlab 3301643"}),
+(:Microbe{name: "Bovine rumen bacterium JPR13"}),
+(:Microbe{name: "Brenneria"}),
+(:Microbe{name: "Burkholderiales bacterium Smarlab 3302047"}),
+(:Microbe{name: "Butyrate-producing bacterium ART55/1"}),
+(:Microbe{name: "Butyrate-producing bacterium L1-810"}),
+(:Microbe{name: "Butyrate-producing bacterium L1-952"}),
+(:Microbe{name: "Butyrate-producing bacterium L2-50"}),
+(:Microbe{name: "Butyrate-producing bacterium M104/1"}),
+(:Microbe{name: "Butyrate-producing bacterium M21/2"}),
+(:Microbe{name: "Butyrate-producing bacterium M50/1"}),
+(:Microbe{name: "Butyrate-producing bacterium P607"}),
+(:Microbe{name: "Butyrate-producing bacterium PH05YB02"}),
+(:Microbe{name: "Butyrate-producing bacterium Ph07AY02"}),
+(:Microbe{name: "Butyrate-producing bacterium PH07AY3"}),
+(:Microbe{name: "Butyrate-producing bacterium PH07AY5"}),
+(:Microbe{name: "Butyrate-producing bacterium PH07BY04"}),
+(:Microbe{name: "Butyrate-producing bacterium SL6/1/1"}),
+(:Microbe{name: "Butyrate-producing bacterium SM4/1"}),
+(:Microbe{name: "Butyrate-producing bacterium SR1/1"}),
+(:Microbe{name: "Butyrate-producing bacterium SR1/5"}),
+(:Microbe{name: "Butyrate-producing bacterium SS2/1"}),
+(:Microbe{name: "Butyrate-producing bacterium SSC/2"}),
+(:Microbe{name: "Butyrate-producing bacterium T2-132"}),
+(:Microbe{name: "Clostridia bacterium TSW07CA7"}),
+(:Microbe{name: "Clostridiaceae bacterium bSSV31"}),
+(:Microbe{name: "Clostridiaceae bacterium LEMV63"}),
+(:Microbe{name: "Clostridiaceae bacterium SH032"}),
+(:Microbe{name: "Clostridiaceae bacterium SK061"}),
+(:Microbe{name: "Clostridiales bacterium 80/3"}),
+(:Microbe{name: "Clostridiales bacterium A2-162"}),
+(:Microbe{name: "Clostridiales bacterium AHT16"}),
+(:Microbe{name: "Clostridiales bacterium L2-14"}),
+(:Microbe{name: "Clostridium innocuum"}),
+(:Microbe{name: "Clostridium ramosum"}),
+(:Microbe{name: "Clostridium spiroforme"}),
+(:Microbe{name: "Collinsella"}),
+(:Microbe{name: "Coprobacillus"}),
+(:Microbe{name: "Cronobacter"}),
+(:Microbe{name: "Dehalobacterium"}),
+(:Microbe{name: "Desulfotomaculum"}),
+(:Microbe{name: "Dialister"}),
+(:Microbe{name: "Dysgonomonas"}),
+(:Microbe{name: "Edwardsiella"}),
+(:Microbe{name: "Enterobacter"}),
+(:Microbe{name: "Erwinia"}),
+(:Microbe{name: "Pseudomonas"}),
+(:Microbe{name: "Xanthomonas"}),
+(:Microbe{name: "Dietzia maris"}),
+(:Microbe{name: "Propionibacterium acnes"}),
+(:Microbe{name: "Porphyromonas gingivalis"}),
+(:Microbe{name: "Atopobium"}),
+(:Microbe{name: "Atopobium vaginae"}),
+(:Microbe{name: "Gardnerella vaginalis"}),
+(:Microbe{name: "Lactobacillus  crispatus"}),
+(:Microbe{name: "Leptotrichia"}),
+(:Microbe{name: "Candidate division TM7"}),
+(:Microbe{name: "Olsenella"}),
+(:Microbe{name: "Porphyromonas uenonis"}),
+(:Microbe{name: "Streptobacillus"}),
+(:Microbe{name: "Aerococcus"}),
+(:Microbe{name: "Gardnerella"}),
+(:Microbe{name: "Lactobacillus iners"}),
+(:Microbe{name: "Mobiluncus"}),
+(:Microbe{name: "Papillibacter"})
+
+
+Position
+
+Create
+(:Position {name:"Gastric"}),
+(:Position {name:"Gastrointestinal tract"}),
+(:Position {name:"Lung"}),
+(:Position {name:"Skin"}),
+(:Position {name:"Subgingival"}),
+(:Position {name:"Vaginal"}),
+(:Position {name:"Bronchial"}),
+(:Position {name:"Bronchial tree"}),
+(:Position {name:"Bronchoalveolar"}),
+(:Position {name:"Cecal"}),
+(:Position {name:"Duodenal"}),
+(:Position {name:"Large intestine"}),
+(:Position {name:"Lung left upper lobe"})
+
+Relasinya
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Comamonadaceae"})
+match (Position :Position{name: "Bronchial"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Oxalobacteraceae"})
+match (Position :Position{name: "Bronchial"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Sphingomonadaceae"})
+match (Position :Position{name: "Bronchial"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Staphylococcus"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Bronchial tree"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Coxiellaceae"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Lysobacter"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Rickettsiales"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Staphylococcus aureus"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Stenotrophomonas maltophilia"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Streptococcus mitis"})
+match (Position :Position{name: "Bronchoalveolar"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Cecal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Cecal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bifidobacterium catenulatum"})
+match (Position :Position{name: "Duodenal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Allergy"})
+match (Microbe :Microbe{name: "Helicobacter pylori"})
+match (Position :Position{name: "Gastric"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Asthma"})
+match (Microbe :Microbe{name: "Helicobacter pylori"})
+match (Position :Position{name: "Gastric"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Gastric and duodenal ulcer"})
+match (Microbe :Microbe{name: "Helicobacter pylori"})
+match (Position :Position{name: "Gastric"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Gastro-oesophageal reflux"})
+match (Microbe :Microbe{name: "Helicobacter pylori"})
+match (Position :Position{name: "Gastric"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Allergic asthma"})
+match (Microbe :Microbe{name: "Helicobacter pylori"})
+match (Position :Position{name: "Gastric"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Allergic sensitization"})
+match (Microbe :Microbe{name: "Clostridium difficile"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic dermatitis"})
+match (Microbe :Microbe{name: "Clostridium difficile"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic sensitisation"})
+match (Microbe :Microbe{name: "Clostridium difficile"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopy"})
+match (Microbe :Microbe{name: "Clostridia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colon cancer"})
+match (Microbe :Microbe{name: "Collinsella aerofaciens"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Constipation Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Veillonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Clostridium leptum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides ovatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides uniformis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides vulgatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Clostridium leptum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Enterobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Faecalibacterium prausnitzii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Enterococcus faecium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Escherichia coli"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Diarrhea Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bifidobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Diarrhea Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Desulfovibrio"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Eczema"})
+match (Microbe :Microbe{name: "Clostridium difficile"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Eczema"})
+match (Microbe :Microbe{name: "Escherichia coli"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides fragilis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Clostridium coccoides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Clostridium leptum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides ovatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides uniformis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroides vulgatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Infectious colitis"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Inflammatory bowel disease(IBD)"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Inflammatory bowel disease(IBD)"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Inflammatory bowel disease(IBD)"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bifidobacterium catenulatum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Clostridium coccoides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Ruminococcus productus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Clostridium cocleatum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Collinsella aerofaciens"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Coprococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Enterobacter aerogenes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Enterobacter hormaechei"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Enterococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Gammaproteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Klebsiella pneumoniae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Shigella dysenteriae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Staphylococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Veillonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Citrobacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Enterobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Enterococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Klebsiella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Staphylococcus aureus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Alcaligenaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Coriobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Erysipelotrichaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Methanobrevibacter smithii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Prevotellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Recurrent wheeze"})
+match (Microbe :Microbe{name: "Clostridium difficile"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Rheumatoid arthrits"})
+match (Microbe :Microbe{name: "Bifidobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Rheumatoid arthrits"})
+match (Microbe :Microbe{name: "Clostridium coccoides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Rheumatoid arthrits"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Systemic inflammatory response syndrome"})
+match (Microbe :Microbe{name: "Enterobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Systemic inflammatory response syndrome"})
+match (Microbe :Microbe{name: "Enterococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Systemic inflammatory response syndrome"})
+match (Microbe :Microbe{name: "Klebsiella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroidaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides fragilis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides ovatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides sp. CJ78"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides thetaiotaomicron"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides uniformis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides vulgatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Eubacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Eubacterium eligens"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Eubacterium rectale"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Faecalibacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CB47"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO19"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Porphyromonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Rikenellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Ruminococcaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Bacilli"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Betaproteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Clostridia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Clostridium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Clostridium coccoides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ulcerative colitis"})
+match (Microbe :Microbe{name: "Clostridium coccoides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Faecalibacterium prausnitzii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 2 diabetes"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Kidney stones"})
+match (Microbe :Microbe{name: "Oxalobacter formigenes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Whipple's disease"})
+match (Microbe :Microbe{name: "Tropheryma whipplei"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacilli"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroidaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Enterobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Enterococcus faecalis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Fusobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Fusobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Lachnospira"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Pasteurellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Veillonellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ulcerative colitis"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ulcerative colitis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Necrotizing Enterocolitis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Acidobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Aeromonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Alteromonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Anaerovorax"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bacillaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bacteroidaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bacteroides vulgatus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Cellulomonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Clostridiaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Coxiellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Desulfobacteraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Desulfovibrionaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Dorea"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Enterobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Eubacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Eubacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Gammaproteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Haemophilus parainfluenzae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Nitrospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Paenibacillaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Pasteurellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Peptostreptococcaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Polyangiaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Porphyromonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Prevotellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Promicromonosporaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Ruminococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Streptococcaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Syntrophobacteraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Thiotrichaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Irritable bowel syndrome(IBS)"})
+match (Microbe :Microbe{name: "Veillonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Fusobacterium nucleatum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Clostridia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Colorectal carcinoma"})
+match (Microbe :Microbe{name: "Fusobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Acetonema"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Actinobacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Aggregatibacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Akkermansia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Alistipes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Anaerofilum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Anaerostipes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Anaerotruncus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium 08.96.4"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ASF500"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium B4C2-5"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium Ba2"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium C15"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium G100VIII"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1214"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1258"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1292"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1296"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1311"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1379"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium ic1391"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium MB7-1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium mpn-isolate group 19"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium mpn-isolate group 22"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium mpn-isolate group 24"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium mpn-isolate group 27"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium mpn-isolate group 5"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium 'New Zealand B'"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium str. 31285"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium YE62"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacterium YE64"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroidaceae bacterium Smarlab 3301643"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bifidobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Bovine rumen bacterium JPR13"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Brenneria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Burkholderiales bacterium Smarlab 3302047"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium ART55/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium L1-810"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium L1-952"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium L2-50"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium M104/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium M21/2"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium M50/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium P607"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium PH05YB02"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium Ph07AY02"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium PH07AY3"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium PH07AY5"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium PH07BY04"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SL6/1/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SM4/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SR1/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SR1/5"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SS2/1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium SSC/2"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Butyrate-producing bacterium T2-132"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Citrobacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridia bacterium TSW07CA7"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiaceae bacterium bSSV31"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiaceae bacterium LEMV63"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiaceae bacterium SH032"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiaceae bacterium SK061"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiales bacterium 80/3"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiales bacterium A2-162"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiales bacterium AHT16"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridiales bacterium L2-14"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridium innocuum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridium ramosum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Clostridium spiroforme"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Collinsella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Coprobacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Cronobacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Dehalobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Desulfotomaculum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Dialister"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Dysgonomonas"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Edwardsiella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Enterobacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Erwinia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Erysipelothrix"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Escherichia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Eubacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Eubacterium tortuosum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Faecalibacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Firmicutes bacterium EG14"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Firmicutes str. C29"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Fusobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Fusobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Gram-negative bacterium cL10-2b-4"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Hafnia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CB47"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO13"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO19"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO2"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO35"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CO4"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Human intestinal firmicute CS26"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Klebsiella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Lachnobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Lachnospiraceae bacterium A2"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Lactococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Mannheimia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Mastodon intestinal bacterium AN-22-6"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Mogibacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Odoribacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Oligella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Oscillibacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Oscillospira"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Oscillospiraceae bacterium NML 061048"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Pantoea"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Parabacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Pasteurella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Pectobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Peptostreptococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Phascolarctobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Porphyromonas"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Pusillimonas"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Roseburia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Rumen bacterium 8/94-32"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Rumen bacterium R-7"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Rumen bacterium R-9"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Salmonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Segmented filamentous bacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Serratia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Shigella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Shuttleworthia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Solobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Streptococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Subdoligranulum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Sutterella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Swine fecal bacterium FPC67"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Swine fecal bacterium FPC70"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Swine fecal bacterium RF3E-Xyl1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Swine fecal bacterium SD-Pec1"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Swine manure pit bacterium PPC108"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Tenericutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Terrahaemophilus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Unidentified bacterium ZF3"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Veillonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Verrucomicrobia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Verrucomicrobia bacterium MS-F-88"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Vibrio"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Type 1 diabetes"})
+match (Microbe :Microbe{name: "Yersinia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Ileal Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Alistipes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Bacteroidaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Lachnospiraceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Parabacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Porphyromonadaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Rikenellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Ruminococcaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Clostridium difficile infection(CDI)"})
+match (Microbe :Microbe{name: "Verrucomicrobiaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "New-onset untreated rheumatoid arthrits"})
+match (Microbe :Microbe{name: "Prevotella copri"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Bacteroidales"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Clostridiales"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Erysipelotrichales"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Fusobacteriaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Crohn's disease(CD)"})
+match (Microbe :Microbe{name: "Veillonellaceae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Alistipes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Alistipes finegoldii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Alistipes putredinis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroides eggerthii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroides finegoldii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroides sp. D20"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroides uniformis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bacteroidetes"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bilophila"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Bilophila wadsworthia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Clostridium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Coprococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Dorea"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Eubacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Eubacterium eligens"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Eubacterium hallii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Eubacterium rectale"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Faecalibacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Faecalibacterium prausnitzii"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Fusobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Fusobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Haemophilus parainfluenzae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Holdemania"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Lactobacillus salivarius"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Megasphaera"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Odoribacter"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Odoribacter splanchnicus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Parabacteroides"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Parabacteroides distasonis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Parabacteroides merdae"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Phascolarctobacterium"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Roseburia"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Roseburia hominis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Roseburia intestinalis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Ruminococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Ruminococcus gnavus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcus anginosus"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcus parasanguinis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcus salivarius"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Streptococcus vestibularis"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Subdoligranulum"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Tannerella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Veillonella"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Veillonella atypica"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Veillonella dispar"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Liver cirrhosis"})
+match (Microbe :Microbe{name: "Veillonella parvula"})
+match (Position :Position{name: "Gastrointestinal tract"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Obesity"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Large intestine"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Pseudomonas"})
+match (Position :Position{name: "Lung"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Burkholderia"})
+match (Position :Position{name: "Lung"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Burkholderia"})
+match (Position :Position{name: "Lung"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Lung"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Lung"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "COPD"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Lung left upper lobe"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Cystic fibrosis"})
+match (Microbe :Microbe{name: "Xanthomonas"})
+match (Position :Position{name: "Lung left upper lobe"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic dermatitis"})
+match (Microbe :Microbe{name: "Dietzia maris"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic dermatitis"})
+match (Microbe :Microbe{name: "Stenotrophomonas maltophilia"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Guttate psoriasis"})
+match (Microbe :Microbe{name: "Staphylococcus aureus"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Propionibacterium"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Propionibacterium acnes"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Streptococcus"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Propionibacterium"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Proteobacteria"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Psoriasis"})
+match (Microbe :Microbe{name: "Staphylococcus"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic dermatitis"})
+match (Microbe :Microbe{name: "Staphylococcus aureus"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Atopic dermatitis"})
+match (Microbe :Microbe{name: "Staphylococcus epidermidis"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Skin and mucosal infections"})
+match (Microbe :Microbe{name: "Acinetobacter"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Skin and mucosal infections"})
+match (Microbe :Microbe{name: "Corynebacterium"})
+match (Position :Position{name: "Skin"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Fusobacterium"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Porphyromonas gingivalis"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Treponema"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Actinomyces"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Haemophilus"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Selenomonas"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Streptococcus"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Porphyromonas"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Tannerella"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Periodontal"})
+match (Microbe :Microbe{name: "Treponema"})
+match (Position :Position{name: "Subgingival"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Atopobium"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Atopobium vaginae"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Clostridiales"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Eggerthella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Gardnerella vaginalis"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Lactobacillus  crispatus"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Leptotrichia"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Megasphaera"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Betaproteobacteria"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Candidate division TM7"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Clostridium"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Fusobacteria"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Lactobacillus"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Megasphaera"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Olsenella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Porphyromonas uenonis"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Shuttleworthia"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Streptobacillus"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Actinobacteria"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Aerococcus"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Atopobium"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Atopobium vaginae"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Eggerthella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Firmicutes"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Fusobacteria"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Gardnerella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Gardnerella vaginalis"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Lactobacillus iners"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Leptotrichia"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Megasphaera"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Mobiluncus"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Papillibacter"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Prevotella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Eggerthella"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
+match (Disease :Disease{name: "Bacterial Vaginosis"})
+match (Microbe :Microbe{name: "Leptotrichia amnionii"})
+match (Position :Position{name: "Vaginal"})
+merge (Disease)-[:Associated_with]->(Microbe)
+merge (Microbe)-[:Locate_at]->(Position)
+merge (Position)-[:Associated_with]->(Disease)
+
